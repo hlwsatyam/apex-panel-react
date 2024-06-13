@@ -1,0 +1,139 @@
+
+.SEctionOfLogin {
+    overflow-x: hidden;
+}
+
+.logoOflogin {
+    width: 93px;
+    height: 70px;
+}
+
+.DivOflogEmail {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.DivOflogPass {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.InputOfLog {
+    width: 93%;
+    height: 28px;
+    border: none;
+}
+
+.InputOfLog1 {
+    width: 93%;
+    height: 28px;
+    border: none;
+}
+
+.Continue {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #015dfe;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    height: 45px;
+}
+
+.ForOfLogin {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.MainDivOfLogin {
+    padding: 40px 70px 40px 70px;
+    margin-top: 60px;
+    width: 581px;
+}
+
+.LoginText {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: blue;
+    margin-top: 28px;
+    margin-bottom: 26px;
+}
+
+.IconOfmail {
+    width: 25px;
+    height: 25px;
+    color: blue;
+}
+
+.IconOfEye {
+    width: 25px;
+    height: 25px;
+    color: black;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .MainDivOfLogin {
+        padding: 2px 20px 40px 23px;
+        margin-top: 38px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 520px) {
+    .MainDivOfLogin {
+        margin-top: 18px;
+    }
+}
+
+@media screen and (min-width: 521px) and (max-width: 767px) {
+    .MainDivOfLogin {
+        padding: 40px 90px 40px 90px;
+        margin-top: 21px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    .MainDivOfLogin {
+        padding: 20px 30px 20px 30px;
+        margin-top: 8px;
+    }
+    .LoginImage {
+        width: 100%;
+        height: 447px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+    .MainDivOfLogin {
+        padding: 20px 40px 20px 40px;
+        margin-top: 8px;
+    }
+    .LoginImage {
+        width: 100%;
+        height: 476px;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1250px) {
+    .MainDivOfLogin {
+        padding: 40px 70px 40px 70px;
+        margin-top: 5px;
+    }
+    .LoginImage {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+

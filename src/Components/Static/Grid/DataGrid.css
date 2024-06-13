@@ -1,0 +1,59 @@
+/* DataGrid.css */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.DivOfSeack{
+    width: 200px;
+    height: 40px;
+}
+/* DataGrid.css */
+
+/* Styles for the modal */
+.ant-modal-content {
+    width: 400px;
+}
+
+/* Styles for the modal title */
+.ant-modal-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Styles for the modal buttons */
+.ant-modal-body > div > .ant-btn {
+    margin: 5px;
+    width: calc(50% - 10px);
+}
+
+.custom-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+.custom-popup h2 {
+    margin-bottom: 10px;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.popup-buttons button {
+    margin-right: 10px;
+}
+
+
